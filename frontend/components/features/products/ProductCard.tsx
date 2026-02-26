@@ -1,3 +1,4 @@
+// components/features/products/ProductCard.tsx
 import { Product } from './types';
 import { ProductImage } from './ProductImage';
 import { ProductInfo } from './ProductInfo';
@@ -9,14 +10,13 @@ interface ProductCardProps {
 
 export function ProductCard({ product }: ProductCardProps) {
   return (
-    <article className="flex flex-col border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow bg-white">
+    <article className="bg-white text-black p-5 flex flex-col justify-between hover:shadow-lg transition cursor-pointer border border-transparent hover:border-gray-200">
       <ProductImage src={product.image} alt={product.name} />
       
-      <div className="p-4 flex flex-col flex-grow">
-        <ProductInfo name={product.name} price={product.price} />
+      <div className="flex flex-col flex-grow mt-4">
+        <ProductInfo name={product.name} brand={product.brand} price={product.price} />
         
-        {/* El mt-auto empuja el botón siempre al fondo de la tarjeta */}
-        <div className="mt-auto">
+        <div className="mt-auto pt-4">
           <AddToCartButton productId={product.id} />
         </div>
       </div>

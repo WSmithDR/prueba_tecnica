@@ -1,0 +1,58 @@
+[
+  { 
+    "id": "1", 
+    "name": "Freidora Comercial a Gas", 
+    "brand": "Vulcan", 
+    "price": 1499.00, 
+    "image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=500&q=80" 
+  },
+  { 
+    "id": "2", 
+    "name": "Máquina Comercial Triple", 
+    "brand": "Breville Professional", 
+    "price": 1498.00, 
+    "image": "https://images.unsplash.com/photo-1556740738-f6a622416b7f?auto=format&fit=crop&w=500&q=80" 
+  },
+  { 
+    "id": "3", 
+    "name": "Mezcladora Industrial de Pie", 
+    "brand": "KitchenAid Pro", 
+    "price": 1699.00, 
+    "image": "https://images.unsplash.com/photo-1590599145008-e4ec48682067?auto=format&fit=crop&w=500&q=80" 
+  },
+  { 
+    "id": "4", 
+    "name": "Mesa Fría Refrigerada 2 Puertas", 
+    "brand": "True Refrigeration", 
+    "price": 1699.00, 
+    "image": "https://images.unsplash.com/photo-1574722772633-e401c33eb317?auto=format&fit=crop&w=500&q=80" 
+  },
+  { 
+    "id": "5", 
+    "name": "Estufa Industrial 4 Quemadores", 
+    "brand": "Wolf Commercial", 
+    "price": 1449.00, 
+    "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=500&q=80" 
+  },
+  { 
+    "id": "6", 
+    "name": "Sistema de Refrigeración Vertical", 
+    "brand": "Liebherr", 
+    "price": 1498.00, 
+    "image": "https://images.unsplash.com/photo-1584269600519-112d061fb00c?auto=format&fit=crop&w=500&q=80" 
+  },
+  { 
+    "id": "7", 
+    "name": "Mesa Fría de Preparación", 
+    "brand": "Avantco", 
+    "price": 1699.00, 
+    "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=500&q=80" 
+  },
+  { 
+    "id": "8", 
+    "name": "Horno de Convección Eléctrico", 
+    "brand": "Unox", 
+    "price": 1699.00, 
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=500&q=80" 
+  }
+]
